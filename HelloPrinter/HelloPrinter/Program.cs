@@ -6,7 +6,9 @@ namespace HelloPrinter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello");
+            Console.WriteLine("hello everyone");
+            greetWhite();
+            greetBlack();
         }
 
         static void greetBlack()
