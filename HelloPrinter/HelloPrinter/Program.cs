@@ -1,5 +1,24 @@
-﻿Console.WriteLine("hello"); 
-static void greetWhite()
+using System;
+
+namespace HelloPrinter
 {
-    Console.WriteLine("hello white");
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("hello everyone");
+            greetWhite();
+            greetBlack();
+        }
+
+        static void greetBlack()
+        {
+            Console.WriteLine("hello black");
+        }
+
+        static void greetWhite()
+        {
+            Console.WriteLine("hello white");
+        }
+    }
 }
